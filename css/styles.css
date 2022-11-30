@@ -216,13 +216,13 @@ h3 {
 .carousel-control-next-icon:after
 {
   content: '👉';
-  font-size: 100px;
+  font-size: 75px;
   color:#00ff8c;
 }
 
 .carousel-control-prev-icon:after {
   content: '👈';
-  font-size: 100px;
+  font-size: 75px;
   color: #00ff8c;
 }
 
