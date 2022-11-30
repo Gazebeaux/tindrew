@@ -139,13 +139,13 @@ h3 {
 }
 
 #features {
-    background-color:#00ff8c;;
+    background-color:#fbff00;
     padding: 15% 7%;
     
 }
 
 .icon:hover {
-    color: #ffe600;
+    color: #00ff8c;
     transform: scale(1.1);
 }
 
@@ -163,13 +163,13 @@ h3 {
     font-family: 'Raleway';
     font-weight: 600;
     font-size: 2rem;
-    color: #fbff00;
+    color: #00ff8c;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 #testimonials {
     padding: 7% 15%;
-    background-color: #fbff00;
+    background-color: #00ff8c;
     text-align: center;
 }
 
@@ -178,7 +178,7 @@ h3 {
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 5rem;
-    color:#00ff8c;
+    color:#fbff00;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
@@ -190,7 +190,7 @@ h3 {
     font-family: 'Raleway';
     font-weight: 600;
     font-size: 1.5rem;
-    color: #00ff8c;
+    color: #fbff00;
     -webkit-text-stroke: .7px rgb(0, 0, 0);
 }
 
@@ -217,17 +217,17 @@ h3 {
 {
   content: '👉';
   font-size: 75px;
-  color:#00ff8c;
+  color:#fbff00;
 }
 
 .carousel-control-prev-icon:after {
   content: '👈';
   font-size: 75px;
-  color: #00ff8c;
+  color: #fbff00;
 }
 
 #press {
-    background-color: #fbff00;
+    background-color: #00ff8c;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -240,12 +240,12 @@ h3 {
 #footer {
     height: 100%;
     width: 100%;
-    background-color: #fbff00;
+    background-color: #00ff8c;
     text-align: center;
     font-family: 'Raleway';
     font-weight: 600;
     font-size: 1.5rem;
-    color: #00ff8c;
+    color: #fbff00;
     margin-bottom: 0%;
     -webkit-text-stroke: .7px rgb(0, 0, 0);
 }
