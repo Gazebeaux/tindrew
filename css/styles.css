@@ -168,9 +168,12 @@ h3 {
 }
 
 #testimonials {
-    padding: 7% 15%;
     background-color: #00ff8c;
     text-align: center;
+}
+
+.caousel-item {
+    padding: 7% 15%;
 }
 
 .test {
@@ -180,6 +183,7 @@ h3 {
     line-height: 5rem;
     color:#fbff00;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
+    padding: 20px 20px;
 }
 
 .test:hover {
