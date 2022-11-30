@@ -1,0 +1,212 @@
+body {
+    overflow-x: hidden;
+}
+
+#title {
+    background-color: #ff0077;
+}
+
+
+
+
+.twophones {
+    animation-name: stretch;
+            animation-duration: 2.0s;
+            animation-timing-function: ease-out;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(1.1);
+
+    50% {
+        transform: scale(1.1)
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+}
+
+
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    padding-left: 1rem;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 2rem;
+    font-style: italic;
+    color: #00ff8c;
+    -webkit-text-stroke: 1px rgb(80, 107, 6);
+}
+
+.navbar-brand:hover {
+    color:#fbff00;
+    transform: scale(1.1);
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #00ff8c;
+    text-decoration: underline;
+    text-decoration-color:#fbff00;
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+    color:#fbff00;
+}
+
+.ralign {
+    padding-left: 75%;
+}
+
+.btn {
+
+}
+
+.btns {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.pad1 { 
+    padding: 3% 15%;
+ }
+
+h1 {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+    color:#00ff8c;
+    -webkit-text-stroke: 2px rgb(80, 107, 6);
+}
+
+h1:hover {
+    color:#fbff00;
+    transform: scale(1.1);
+}
+
+
+.ital {
+    text-decoration: underline;
+    text-decoration-color: #ffe600;
+}
+
+
+.btn {
+    font-family: 'Raleway';
+    color:#00ff8c;
+}
+
+.btn1 {
+
+}
+
+.btn1:hover {
+    color:#fbff00;
+    transform: scale(1.1);
+
+}
+
+
+h3 {
+    font-family: 'Raleway';
+}
+
+.ralign1 {
+    margin-left: 5rem;
+}
+
+#features {
+    background-color:#00ff8c;;
+    padding: 15% 7%;
+    
+}
+
+.icon:hover {
+    color: #ffe600;
+    transform: scale(1.1);
+}
+
+
+
+.ftrs {
+    font-family: 'Raleway';
+    font-size: 3rem;
+    font-weight: 900;
+    color:#ff0077;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.ftrsl {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fbff00;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #fbff00;
+    text-align: center;
+}
+
+.test {
+    font-family: 'Raleway';
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 5rem;
+    color:#00ff8c;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.test:hover {
+    color:#ff0077
+}
+
+.oprahtxt {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #00ff8c;
+    -webkit-text-stroke: .7px rgb(0, 0, 0);
+}
+
+.oprahtxt:hover {
+    color:#ff0077;  
+}
+
+.oprah1 {
+    width: 20%;
+    border-radius: 100%;
+    margin-top: 80px;
+}
+
+#press {
+    background-color: #fbff00;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.presslogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
