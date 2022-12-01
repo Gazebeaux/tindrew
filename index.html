@@ -13,10 +13,15 @@
     rel="stylesheet">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/5ce0c66fb5.js" crossorigin="anonymous"></script>
+  <!-- js -->
+  <script type="text/javascript" src="js/sound-onclick.js"></script>
   <link rel="icon" href="images/meicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- personal css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+  
 </head>
 
 <body>
@@ -36,13 +41,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto ralign">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a href="https://gazebo.party" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -112,7 +117,12 @@
 
         <div class="col-lg-4">
           <div class="text-center">
+<<<<<<< Updated upstream
             <span style="font-size: 10rem; color:#ff0077; -webkit-text-stroke: 2px rgb(0, 0, 0);"><i class="fa-regular fa-face-smile icon"></i></span>
+=======
+            <span style="font-size: 10rem; color:#ff0077; -webkit-text-stroke: 2px rgb(0, 0, 0);"><i
+                class="fa-regular fa-face-smile icon"></i></span>
+>>>>>>> Stashed changes
           </div>
           <div class="text-center">
             <h3 class="ftrs">Easy to use.</h3>
@@ -174,7 +184,7 @@
           <em class=oprahtxt>- Oprah Winfrey</em>
         </div>
         <div class="carousel-item">
-          <h2 class="test">"I hired Andrew for a basic cuddle session and sh*t myself. I asked him to promise not to
+          <h2 class="test1">"I hired Andrew for a basic cuddle session and sh*t myself. I asked him to promise not to
             tell anyone about it and he never has. I'm telling the world now because I want you all to know how
             outstanding of an individual I truly believe he is."</h2>
           <img class="oprah1 img-fluid mx-auto d-block" src="images/musk.png" alt="oprah">
@@ -203,11 +213,117 @@
   <section id="press">
     <div class="row">
       <div class="col">
-        <img class="presslogo" src="images/tnw.png" alt="tnw-logo">
-        <img class="presslogo" src="images/bizinsider.png" alt="biz-insider-logo">
-        <img class="presslogo" src="images/mashable.png" alt="mashable-logo">
+        
       </div>
     </div>
+  </section>
+
+
+  <!-- Pricing HEader -->
+
+  <section id="pricing">
+
+
+    <div class="container-fluid justify-content-center cardtitle">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="cardh">A Plan for Every Lonely Heart's Needs</h2>
+          <p class="cardp">Poverty and Loneliness Go Hand-in-Hand, and We Keep That in Mind.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Cards -->
+
+    <div class="mycards">
+      <div class="row">
+
+        <div class="col-lg-4 text-center px-auto">
+
+          <div class="card">
+            <div class="card-header">
+              <h3 class="cardtxt1">Chit-Chat</h3>
+            </div>
+            <div class="card-footer">
+              <h2 class="cardtxt2">Free</h2>
+              <p class="cardtxt3">He won't care much about you.</p>
+              <p class="cardtxt3">10 Messages Per Day</p>
+              <p class="cardtxt3">Unlimited App Usage</p>
+              <button type="button" class="btn btn-md btn-dark">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center px-auto">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="cardtxt1">Vague Affection</h3>
+            </div>
+            <div class="card-footer">
+              <h2 class="cardtxt2">$49 / mo</h2>
+              <p class="cardtxt3">Unlimited Messages</p>
+              <p class="cardtxt3">You Will Be Pretty Certain Andrew Likes You</p>
+              <p class="cardtxt3">Unlimited App Usage</p>
+              <button type="button" class="btn btn-md btn-dark">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center px-auto">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="cardtxt1">True-Love</h3>
+            </div>
+            <div class="card-footer">
+              <h2 class="cardtxt2">$99 / mo</h2>
+              <p class="cardtxt3">Unlimited Priority Messaging</p>
+              <p class="cardtxt3">Unlimited Terms of Endearment</p>
+              <p class="cardtxt3">Unlimited App Usage</p>
+              <button type="button" class="btn btn-md btn-dark">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <div class="container-fluid justify-content-center">
+      <div class="row">
+        <div class="col text-center">
+          <a href="javascript:playclip();">
+            <img class="myself" src="images/metransparent.png" alt="Click for Sound">
+              </a>
+          <h2 class="cardh1">Andrew Is Ready For You.</h2>
+          <p class="cardp1">Download Today</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center btns1">
+          <div class="btn-group btn-group-lg mt-auto" role="group" aria-label="Download for iOS and Android">
+
+            <button type="button" class="btn btn-dark btn-lg me-5 btn1 bottombutton"><i
+                class="fa-brands fa-app-store m-auto" ;></i>iPhone</button>
+
+
+            <button type="button" class="btn btn-dark btn-lg ms-5 btn1 bottombutton"><i
+                class="fa-brands fa-google-play m-auto" ;></i>Android</button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
   </section>
 
   <!-- Footer -->

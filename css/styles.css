@@ -1,5 +1,5 @@
 html {
-    height: 100vh;
+    height: 100%;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 
-
+/* Phone anim */
 
 .twophones {
     animation-name: stretch;
@@ -36,7 +36,7 @@ body {
 }
 }
 
-
+/* navbar */
 
 .navbar {
     padding-bottom: 4.5rem;
@@ -80,20 +80,33 @@ body {
     padding-left: 75%;
 }
 
-.btn {
+/* buttons */
 
-}
 
 .btns {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
+.btn {
+    font-family: 'Raleway';
+    color:#00ff8c;
+}
+
+
+.btn1:hover {
+    color:#fbff00;
+    transform: scale(1.1);
+
+}
+
+/* main text */
 .pad1 { 
     padding: 3% 15%;
  }
 
-h1 {
+
+ h1 {
     font-family: 'Raleway';
     font-weight: 900;
     font-size: 4rem;
@@ -105,6 +118,7 @@ h1 {
 h1:hover {
     color:#fbff00;
     transform: scale(1.1);
+    text-decoration-color:#00ff8c;
 }
 
 
@@ -114,20 +128,7 @@ h1:hover {
 }
 
 
-.btn {
-    font-family: 'Raleway';
-    color:#00ff8c;
-}
 
-.btn1 {
-
-}
-
-.btn1:hover {
-    color:#fbff00;
-    transform: scale(1.1);
-
-}
 
 
 h3 {
@@ -178,6 +179,18 @@ h3 {
 
 .test {
     font-family: 'Raleway';
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 5rem;
+    color:#fbff00;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    margin-top: 5%;    
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.test1 {
+    font-family: 'Raleway';
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 5rem;
@@ -189,6 +202,10 @@ h3 {
 }
 
 .test:hover {
+    color:#ff0077
+}
+
+.test1:hover {
     color:#ff0077
 }
 
@@ -244,8 +261,8 @@ h3 {
 }
 
 .presslogo {
-    width: 15%;
-    margin: 20px 20px 20px;
+    width: 10%;
+    margin: 20px 20px 10px;
 }
 
 #footer {
@@ -257,6 +274,127 @@ h3 {
     font-weight: 600;
     font-size: 1.5rem;
     color: #fbff00;
+    overflow: hidden;
+    -webkit-text-stroke: .7px rgb(0, 0, 0);
+}
+
+#pricing {
+    padding: 5% 7%;
+    background-color: #ff0077;
+}
+
+.cardh {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+    color:#fbff00;
+    margin-top: 5%;
+    text-decoration: underline solid #00ff8c;
+    -webkit-text-stroke: 2px rgb(80, 107, 6);
+}
+
+.cardp {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 2rem;
+    color:#fbff00;
+    margin-bottom: 10%;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.cardh:hover {
+    color:#00ff8c;
+    text-decoration: underline solid #fbff00;
+}
+
+.cardp:hover {
+    color:#00ff8c;
+}
+
+.card {
+    background-color:#fbff00;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.cardtxt1 {
+    
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 2.5rem;
+    color:#ff0077;
     margin-bottom: 0%;
     -webkit-text-stroke: .7px rgb(0, 0, 0);
+}
+
+.cardtxt2 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 3rem;
+    color:#00ff8c;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.cardtxt3 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #ff0077;
+    -webkit-text-stroke: .3px rgb(0, 0, 0);
+}
+
+.mycards {
+    margin-bottom: 5%;
+}
+
+#cta {
+    background-color: #00ff8c;
+}
+
+.myself {
+    margin-top: 10%;
+    width:25%;
+}
+
+.cardh1 {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 1.5;
+    color:#fbff00;
+    text-decoration: underline solid #ff0077;
+    -webkit-text-stroke: 2px rgb(80, 107, 6);
+}
+
+.cardp1 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 3rem;
+    color:#fbff00;
+    margin-bottom: 5%;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.cardh1:hover {
+    color:#ff0077;
+    text-decoration:underline solid #fbff00;
+}
+
+.cardp1:hover {
+    color:#ff0077;
+}
+
+
+.bottombutton:hover {
+    color:#fbff00;
+    transform: scale(1.1);
+
+}
+
+.btns1 {
+    margin-bottom: 5%;
 }
