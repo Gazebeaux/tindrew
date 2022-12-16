@@ -9,7 +9,7 @@ body {
 
 #title {
     background-color: #ff0077;
-    padding-bottom: 5%;
+
 }
 
 
@@ -86,8 +86,8 @@ body {
 
 
 .btns {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .btn {
@@ -111,10 +111,10 @@ body {
  h1 {
     font-family: 'Raleway';
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 1.5;
     color:#00ff8c;
-    -webkit-text-stroke: 2px rgb(80, 107, 6);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
 h1:hover {
